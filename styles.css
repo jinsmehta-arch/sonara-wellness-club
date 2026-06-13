@@ -122,11 +122,16 @@ img {
 }
 
 .logo {
-  font-size: 1.1rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: #000000;
+  display: none;
+}
+
+.logo-image {
+  height: 80px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
 }
 
 .main-nav a {
