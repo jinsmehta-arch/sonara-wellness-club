@@ -1,6 +1,6 @@
 # Sonara Yoga
 
-Personalised pregnancy wellness — yoga, music and expert-led support.
+Personalised wellness and yoga — music and expert-led support.
 
 This repository contains a static landing page prototype for Sonara Yoga. The site is intentionally lightweight (plain HTML/CSS/JS) for rapid design iteration. Use this repo as a marketing site or prototype for the larger Next.js product described in the project PRD.
 
