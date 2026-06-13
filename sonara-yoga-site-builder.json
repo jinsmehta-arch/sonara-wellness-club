@@ -15,10 +15,10 @@
       { "label": "Contact", "href": "#contact" }
     ],
     "hero": {
-      "heading": "Move, breathe and thrive through personalised wellness experiences.",
-      "subheading": "A premium platform that adapts to your goals, mood, life stage, sleep and music preferences.",
-      "primaryCta": { "label": "Start Your Journey", "href": "/signup" },
-      "secondaryCta": { "label": "Learn More", "href": "#features" }
+      "heading": "Wellness and yoga guided by Sarita Kotecha",
+      "subheading": "Founder-led programmes combining mindful movement, personalised music and expert coaching. Pregnancy wellness is available as a specialist offering.",
+      "primaryCta": { "label": "Explore Programs", "href": "#programs" },
+      "secondaryCta": { "label": "Meet the Team", "href": "#experts" }
     },
     "sections": [
       {
@@ -122,8 +122,8 @@
         "id": "womens-health",
         "type": "feature-grid",
         "title": "Women's Health Hub",
-        "description": "Specialist support from pregnancy through menopause.",
-        "highlight": "Led by Dr Reena Kotecha",
+        "description": "Specialist support from pregnancy through menopause, led by the Sonara team with founder oversight.",
+        "highlight": "Founder-led hub; pregnancy programmes led by Dr Reena Kotecha",
         "topics": ["Pregnancy", "Birth preparation", "Postnatal recovery", "Pelvic health", "Menopause"]
       },
       {

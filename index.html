@@ -13,11 +13,11 @@
         <div class="logo">Sonara Yoga</div>
         <div class="brand-tagline">Personalised pregnancy wellness for every trimester.</div>
       </div>
-      <nav class="main-nav" id="main-nav"></nav>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation"></nav>
     </div>
   </header>
 
-  <main id="app"></main>
+  <main id="app" role="main"></main>
 
   <footer class="site-footer">
     <div class="footer-content">
@@ -30,9 +30,9 @@
     <div class="partner-strip">
       <div class="partner-copy">Trusted by</div>
       <div class="partner-logos">
-        <span class="partner-logo">Hospital Partner</span>
-        <span class="partner-logo">Maternity Network</span>
-        <span class="partner-logo">Wellness Institute</span>
+        <img class="partner-logo" src="images/partner1.svg" alt="Hospital Partner" />
+        <img class="partner-logo" src="images/partner2.svg" alt="Maternity Network" />
+        <img class="partner-logo" src="images/partner3.svg" alt="Wellness Institute" />
       </div>
     </div>
   </footer>
@@ -48,14 +48,14 @@
         { label: "Join", href: "#join" }
       ],
       hero: {
-        heading: "Confident pregnancy wellness, guided by Dr Reena Kotecha.",
-        subheading: "Gentle prenatal yoga, restorative breathwork and expert women's health support designed to help expectant mothers feel strong, calm and cared for.",
-        primaryCta: { label: "Begin Pregnancy Wellness", href: "#join" },
-        secondaryCta: { label: "Discover Dr Reena", href: "#experts" },
+        heading: "Wellness & yoga guided by Sarita Kotecha.",
+        subheading: "Founder-led programmes combining mindful movement, personalised music and women's health guidance — pregnancy wellness is a specialised offering within Sonara.",
+        primaryCta: { label: "Explore Programs", href: "#programs" },
+        secondaryCta: { label: "Meet our experts", href: "#experts" },
         coach: {
-          name: "Dr Reena Kotecha",
-          title: "Women's Health & Pregnancy Wellness Lead",
-          description: "With over a decade of women's health expertise, Dr Reena supports expectant mothers with pregnancy-safe movement, recovery and emotional resilience."
+          name: "Sarita Kotecha",
+          title: "Founder & Head Yoga Instructor",
+          description: "Sarita brings decades of yoga teaching, mindful movement and holistic wellness coaching to Sonara, blending science and soulful practice."
         }
       },
       sections: [
@@ -112,19 +112,20 @@
         {
           id: "experts",
           type: "experts",
-          title: "Meet Dr Reena Kotecha",
-          description: "Dr Reena is the trusted pregnancy wellness lead for Sonara Yoga, combining specialist women's health coaching with compassionate support for mothers-to-be.",
+          title: "Meet our experts",
+          description: "Led by founder Sarita Kotecha, Sonara brings together senior yoga teachers and women's health specialists — including pregnancy programmes led by Dr Reena Kotecha.",
           people: [
+            {
+              name: "Sarita Kotecha",
+              role: "Founder & Head Yoga Instructor",
+              bio: "Seasoned yoga teacher and wellness coach focused on mindful movement, breath and transformational programmes for all life stages.",
+              credentials: ["20+ years teaching yoga","Founder - Sonara Yoga","Mindful movement & music integration"]
+            },
             {
               name: "Dr Reena Kotecha",
               role: "Pregnancy Wellness Lead",
-              bio: "A women's health specialist with a gentle, evidence-based approach. Dr Reena guides prenatal members through safe yoga, breath-centered reset practices and nourishing recovery."
-              ,
-              credentials: [
-                "10+ years in women's health",
-                "Certified prenatal yoga specialist",
-                "Holistic pregnancy wellness coach"
-              ]
+              bio: "A women's health specialist with a gentle, evidence-based approach. Dr Reena guides prenatal members through safe yoga and recovery practices.",
+              credentials: ["10+ years in women's health","Certified prenatal yoga specialist"]
             }
           ]
         },
@@ -287,7 +288,7 @@
         <section id="home" class="hero-section">
           <div class="hero-grid">
             <div class="hero-copy">
-              <span class="eyebrow">Pregnancy wellness designed for every trimester</span>
+              <span class="eyebrow">Founder-led yoga and wellbeing</span>
               <h1>${siteData.hero.heading}</h1>
               <p>${siteData.hero.subheading}</p>
               <div class="hero-actions">
@@ -295,7 +296,7 @@
                 <a class="button secondary" href="${siteData.hero.secondaryCta.href}">${siteData.hero.secondaryCta.label}</a>
               </div>
               <div class="hero-coach-card">
-                <div class="hero-coach-image">RK</div>
+                <img src="images/sarita.svg" alt="Sarita Kotecha" class="hero-coach-image" />
                 <div class="hero-coach-copy">
                   <p class="coach-role">${siteData.hero.coach.title} — ${siteData.hero.coach.name}</p>
                   <p>${siteData.hero.coach.description}</p>
@@ -304,12 +305,12 @@
             </div>
             <aside class="hero-visual">
               <div class="hero-visual-card">
-                <div class="visual-badge">Pregnancy Wellness</div>
-                <h2>Expert coaching for expectant mothers</h2>
-                <p>Safe yoga, soothing music and women's health guidance tailored for your pregnancy journey.</p>
+                <div class="visual-badge">Signature Programs</div>
+                <h2>Founder-led practices for mindful living</h2>
+                <p>Curated yoga, breathwork and music practices designed by Sarita to support strength, calm and recovery across life stages.</p>
                 <div class="visual-pill-row">
-                  <span>Pregnancy-safe flow</span>
-                  <span>Daily reset sessions</span>
+                  <span>Personalised programmes</span>
+                  <span>Mindful music curation</span>
                 </div>
               </div>
             </aside>

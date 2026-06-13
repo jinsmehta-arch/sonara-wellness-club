@@ -252,7 +252,7 @@ Women's Health Hub
 
 Led by:
 
-Dr Reena Kotecha
+Sarita Kotecha (pregnancy programmes led by Dr Reena Kotecha)
 
 Content Areas:
 
