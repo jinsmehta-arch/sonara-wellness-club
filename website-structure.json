@@ -71,7 +71,7 @@
           },
           {
             "name": "Personalised Yoga Programmes",
-            "categories": ["Beginner", "Strength", "Flexibility", "Mobility", "Stress Relief", "Pregnancy", "Postnatal", "Menopause"],
+            "categories": ["Beginner", "Strength", "Flexibility", "Mobility", "Stress Relief", "Pregnancy (specialist)", "Postnatal", "Menopause"],
             "systemGenerates": ["Daily sessions", "Weekly plans", "Progressions"]
           },
           {
@@ -137,9 +137,11 @@
       {
         "id": "womensHealth",
         "title": "Women's Health Hub",
-        "expert": "Dr Reena Kotecha",
-        "contentAreas": ["Pregnancy", "Birth preparation", "Postnatal recovery", "Pelvic health", "Menopause"]
+        "expert": "Sarita Kotecha",
+        "notes": "Pregnancy programmes are a specialist track led by Dr Reena Kotecha",
+        "contentAreas": ["Pregnancy (specialist)", "Birth preparation", "Postnatal recovery", "Pelvic health", "Menopause"]
       },
+
       {
         "id": "community",
         "title": "Community",
