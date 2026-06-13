@@ -1,0 +1,159 @@
+{
+  "website": {
+    "name": "Sonara Yoga",
+    "tagline": "Personalised yoga and wellness for every life stage.",
+    "version": "1.0",
+    "founderVision": "Build the world's most personalised yoga and wellness platform, combining bespoke yoga programmes, personalised music, women's health expertise, luxury retreats and AI-powered wellness guidance.",
+    "pages": [
+      {
+        "id": "home",
+        "title": "Sonara Yoga",
+        "hero": {
+          "headline": "Move, breathe and thrive through personalised wellness experiences.",
+          "subheadline": "A premium platform that adapts to your goals, mood, life stage, and music preferences.",
+          "callToAction": "Start your wellness journey"
+        },
+        "sections": [
+          {
+            "title": "Executive Summary",
+            "content": "Sonara Yoga is a premium wellness platform delivering highly personalised yoga experiences supported by curated music, expert coaching, women's health services and transformational retreats."
+          },
+          {
+            "title": "Mission",
+            "content": "To help people move, breathe and thrive through personalised wellness experiences."
+          },
+          {
+            "title": "Vision",
+            "content": "Become the leading global destination for personalised wellness."
+          },
+          {
+            "title": "Brand Pillars",
+            "items": [
+              "Personalisation: Every programme adapts to the individual.",
+              "Science: Evidence-based guidance.",
+              "Music: Movement synchronised with sound.",
+              "Community: Supportive global wellness network.",
+              "Transformation: Long-term health improvement."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "users",
+        "title": "Core Users",
+        "userTypes": [
+          {
+            "name": "Busy Professional",
+            "problems": ["Burnout", "Stress", "Poor sleep"],
+            "needs": ["Short guided sessions", "Flexibility", "Accountability"]
+          },
+          {
+            "name": "Women's Health",
+            "problems": ["Pregnancy", "Postnatal recovery", "Perimenopause", "Menopause"],
+            "needs": ["Specialist guidance", "Safe exercise", "Expert support"]
+          },
+          {
+            "name": "Retreat Traveller",
+            "problems": [],
+            "needs": ["Wellness holidays", "Community", "Premium experiences"]
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "title": "Product Features",
+        "items": [
+          {
+            "name": "Wellness Assessment Engine",
+            "purpose": "Create personalised profile.",
+            "questions": ["Age", "Goals", "Experience", "Stress", "Sleep", "Lifestyle", "Music tastes"],
+            "outputs": ["Wellness Score", "Recommended Programme", "Suggested Retreats", "Suggested Playlists"]
+          },
+          {
+            "name": "Personalised Yoga Programmes",
+            "categories": ["Beginner", "Strength", "Flexibility", "Mobility", "Stress Relief", "Pregnancy", "Postnatal", "Menopause"],
+            "systemGenerates": ["Daily sessions", "Weekly plans", "Progressions"]
+          },
+          {
+            "name": "Music Personalisation Engine",
+            "userChoices": ["Ambient", "Classical", "Nature", "Electronic", "Instrumental"],
+            "generatedPlaylists": ["Session playlists", "Meditation playlists", "Recovery playlists"],
+            "futureIntegrations": ["Spotify API integration", "Apple Music integration"]
+          },
+          {
+            "name": "Membership Platform",
+            "plans": ["Essential", "Signature", "Elite"]
+          },
+          {
+            "name": "Retreat Marketplace",
+            "destinations": ["Croatia", "Portugal", "Greece", "Bali", "Morocco"],
+            "features": ["Booking", "Deposits", "Waitlists", "Itinerary builder", "Galleries"]
+          },
+          {
+            "name": "Women's Health Hub",
+            "expert": "Dr Reena Kotecha",
+            "contentAreas": ["Pregnancy", "Birth preparation", "Postnatal recovery", "Pelvic health", "Menopause"]
+          },
+          {
+            "name": "Community",
+            "features": ["Challenges", "Forums", "Accountability groups", "Retreat alumni groups"]
+          },
+          {
+            "name": "AI Wellness Concierge",
+            "examplePrompt": "I have 20 minutes and feel stressed.",
+            "response": ["Yoga session", "Breathwork", "Playlist", "Reflection exercise"]
+          }
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Membership Plans",
+        "plans": [
+          {
+            "name": "Essential",
+            "price": "£29/month",
+            "features": ["Classes", "Library", "Community"]
+          },
+          {
+            "name": "Signature",
+            "price": "£79/month",
+            "features": ["Personalised programmes", "Music recommendations", "Retreat discounts"]
+          },
+          {
+            "name": "Elite",
+            "price": "£299/month",
+            "features": ["Monthly consultation", "Concierge support", "Priority retreat access"]
+          }
+        ]
+      },
+      {
+        "id": "retreats",
+        "title": "Retreat Marketplace",
+        "description": "Premium wellness retreats with community, luxury experiences, and easy booking.",
+        "destinations": ["Croatia", "Portugal", "Greece", "Bali", "Morocco"],
+        "features": ["Booking", "Deposits", "Waitlists", "Itinerary builder", "Galleries"]
+      },
+      {
+        "id": "womensHealth",
+        "title": "Women's Health Hub",
+        "expert": "Dr Reena Kotecha",
+        "contentAreas": ["Pregnancy", "Birth preparation", "Postnatal recovery", "Pelvic health", "Menopause"]
+      },
+      {
+        "id": "community",
+        "title": "Community",
+        "features": ["Challenges", "Forums", "Accountability groups", "Retreat alumni groups"]
+      },
+      {
+        "id": "aiConcierge",
+        "title": "AI Wellness Concierge",
+        "examplePrompt": "I have 20 minutes and feel stressed.",
+        "recommendations": ["Yoga session", "Breathwork", "Playlist", "Reflection exercise"]
+      }
+    ],
+    "technicalArchitecture": {
+      "note": "Technical architecture details were not included in the source PRD markdown beyond the heading. Add implementation details as needed."
+    },
+    "sourceFiles": ["# SONARA YOGA™.md"]
+  }
+}

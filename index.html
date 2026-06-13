@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonara Yoga</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-copy">
+        <div class="logo">Sonara Yoga</div>
+        <div class="brand-tagline">Personalised pregnancy wellness for every trimester.</div>
+      </div>
+      <nav class="main-nav" id="main-nav"></nav>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>© 2026 Sonara Yoga. Personalised wellness for every life stage.</p>
+      <nav>
+        <a href="#faq">FAQ</a>
+        <a href="#join">Join</a>
+      </nav>
+    </div>
+    <div class="partner-strip">
+      <div class="partner-copy">Trusted by</div>
+      <div class="partner-logos">
+        <span class="partner-logo">Hospital Partner</span>
+        <span class="partner-logo">Maternity Network</span>
+        <span class="partner-logo">Wellness Institute</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const siteData = {
+      nav: [
+        { label: "Home", href: "#home" },
+        { label: "Programs", href: "#programs" },
+        { label: "Why Sonara", href: "#why" },
+        { label: "Experts", href: "#experts" },
+        { label: "FAQ", href: "#faq" },
+        { label: "Join", href: "#join" }
+      ],
+      hero: {
+        heading: "Confident pregnancy wellness, guided by Dr Reena Kotecha.",
+        subheading: "Gentle prenatal yoga, restorative breathwork and expert women's health support designed to help expectant mothers feel strong, calm and cared for.",
+        primaryCta: { label: "Begin Pregnancy Wellness", href: "#join" },
+        secondaryCta: { label: "Discover Dr Reena", href: "#experts" },
+        coach: {
+          name: "Dr Reena Kotecha",
+          title: "Women's Health & Pregnancy Wellness Lead",
+          description: "With over a decade of women's health expertise, Dr Reena supports expectant mothers with pregnancy-safe movement, recovery and emotional resilience."
+        }
+      },
+      sections: [
+        {
+          id: "why",
+          type: "intro",
+          title: "A premium wellness sanctuary for expectant mothers.",
+          description: "Sonara Yoga brings together personalised movement, music, expert coaching and women's health guidance to support every pregnancy journey with calm, confidence and care.",
+          bullets: [
+            "Prenatal programmes that adapt to your trimester and energy.",
+            "Breathwork, meditation and sleep support for inner calm.",
+            "Expert-led pregnancy guidance for safe, joyful movement.",
+            "Premium wellness experiences tailored to your life stage."
+          ]
+        },
+        {
+          id: "programs",
+          type: "categories",
+          title: "Practice collections",
+          categories: [
+            "Pregnancy Yoga",
+            "Postnatal Recovery",
+            "Restorative Breathwork",
+            "Sleep & Recovery",
+            "Meditation",
+            "Music Therapy",
+            "Women's Health",
+            "Community"
+          ]
+        },
+        {
+          id: "features",
+          type: "feature-grid",
+          title: "What makes Sonara different",
+          cards: [
+            {
+              title: "Personalised wellness profile",
+              text: "Begin with an assessment that reflects your body, mood and pregnancy goals to create a truly tailored practice."
+            },
+            {
+              title: "Adaptable prenatal programmes",
+              text: "Move safely through each trimester with yoga, breathwork and recovery sessions that respond to your energy."
+            },
+            {
+              title: "Curated wellness music",
+              text: "Soundscapes and playlists designed to support relaxation, focus and deeper rest during pregnancy."
+            },
+            {
+              title: "Expert-led support",
+              text: "Access women's health expertise, pregnancy check-ins and thoughtful guidance whenever you need reassurance."
+            }
+          ]
+        },
+        {
+          id: "experts",
+          type: "experts",
+          title: "Meet Dr Reena Kotecha",
+          description: "Dr Reena is the trusted pregnancy wellness lead for Sonara Yoga, combining specialist women's health coaching with compassionate support for mothers-to-be.",
+          people: [
+            {
+              name: "Dr Reena Kotecha",
+              role: "Pregnancy Wellness Lead",
+              bio: "A women's health specialist with a gentle, evidence-based approach. Dr Reena guides prenatal members through safe yoga, breath-centered reset practices and nourishing recovery."
+              ,
+              credentials: [
+                "10+ years in women's health",
+                "Certified prenatal yoga specialist",
+                "Holistic pregnancy wellness coach"
+              ]
+            }
+          ]
+        },
+        {
+          id: "join",
+          type: "benefits",
+          title: "One membership, total pregnancy wellness",
+          items: [
+            "Unlimited pregnancy-safe yoga and breathwork.",
+            "Holistic support for movement, rest and self-care.",
+            "Priority access to expert guidance and retreat inspiration.",
+            "A single membership designed for your wellbeing and growing body."
+          ]
+        },
+        {
+          id: "testimonial",
+          type: "testimonial",
+          testimonials: [
+            { quote: "Sonara feels like a personal wellness concierge. Every class, playlist and plan is exactly what I need during pregnancy.", author: "Maya R., expectant mother" },
+            { quote: "The prenatal flows are gentle, effective and helped me regain strength during my second trimester.", author: "Aisha P., mum-to-be" },
+            { quote: "Dr Reena's guidance eased my worries — I felt supported and informed the whole way.", author: "Lena K., expectant mother" }
+          ]
+        },
+        {
+          id: "faq",
+          type: "faq",
+          title: "Frequently Asked Questions",
+          questions: [
+            { q: "How do I join Sonara Yoga?", a: "Create an account, complete your wellness profile, and begin personalised pregnancy sessions instantly." },
+            { q: "What does it cost?", a: "Choose the plan that fits your needs—everything from core access to premium concierge support for your pregnancy journey." },
+            { q: "What content is available?", a: "Prenatal yoga, breathwork, meditation, recovery, soothing music, women's health guidance and retreat inspiration." },
+            { q: "Which devices can I use?", a: "Practice seamlessly on desktop, tablet and mobile — anytime, anywhere during your pregnancy." }
+          ]
+        },
+        {
+          id: "final-cta",
+          type: "call-to-action",
+          heading: "Begin your pregnancy wellness journey today.",
+          button: { label: "Join Sonara Yoga", href: "#join" }
+        }
+      ]
+    };
+
+    function renderNav(items) {
+      return items.map(item => `<a href="${item.href}">${item.label}</a>`).join('');
+    }
+
+    function renderSection(section) {
+      switch (section.type) {
+        case 'intro':
+          return `
+            <section id="${section.id}" class="section intro-section">
+              <div class="intro-copy">
+                <h2>${section.title}</h2>
+                <p>${section.description}</p>
+              </div>
+              <ul class="intro-list">
+                ${section.bullets.map(item => `<li>${item}</li>`).join('')}
+              </ul>
+            </section>
+          `;
+        case 'categories':
+          return `
+            <section id="${section.id}" class="section categories-section">
+              <h2>${section.title}</h2>
+              <div class="categories-grid">
+                ${section.categories.map(item => `<span class="category-pill">${item}</span>`).join('')}
+              </div>
+            </section>
+          `;
+        case 'feature-grid':
+          return `
+            <section id="${section.id}" class="section features-section">
+              <h2>${section.title}</h2>
+              <div class="feature-grid">
+                ${section.cards.map(card => `
+                  <article class="feature-card">
+                    <h3>${card.title}</h3>
+                    <p>${card.text}</p>
+                  </article>
+                `).join('')}
+              </div>
+            </section>
+          `;
+        case 'experts':
+          return `
+            <section id="${section.id}" class="section experts-section">
+              <div class="section-header">
+                <h2>${section.title}</h2>
+                <p>${section.description}</p>
+              </div>
+              <div class="experts-grid">
+                ${section.people.map(person => `
+                  <article class="expert-card">
+                    <div class="profile-mark">${person.name.split(' ').map(n => n.charAt(0)).join('')}</div>
+                    <h3>${person.name}</h3>
+                    <p class="expert-role">${person.role}</p>
+                    <div class="expert-credentials">
+                      ${person.credentials ? person.credentials.map(cred => `<span>${cred}</span>`).join('') : ''}
+                    </div>
+                    <p class="expert-bio">${person.bio}</p>
+                  </article>
+                `).join('')}
+              </div>
+            </section>
+          `;
+        case 'benefits':
+          return `
+            <section id="${section.id}" class="section benefits-section">
+              <h2>${section.title}</h2>
+              <ul>
+                ${section.items.map(item => `<li>${item}</li>`).join('')}
+              </ul>
+            </section>
+          `;
+        case 'testimonial':
+          return `
+            <section id="${section.id}" class="section testimonial-section">
+              <h2>What expecting mothers say</h2>
+              <div class="testimonials-grid">
+                ${section.testimonials ? section.testimonials.map(t => `
+                  <article class="testimonial-card">
+                    <p>“${t.quote}”</p>
+                    <footer>— ${t.author}</footer>
+                  </article>
+                `).join('') : ''}
+              </div>
+            </section>
+          `;
+        case 'faq':
+          return `
+            <section id="${section.id}" class="section faq-section">
+              <h2>${section.title}</h2>
+              <div class="faq-grid">
+                ${section.questions.map(item => `
+                  <article class="faq-card">
+                    <h3>${item.q}</h3>
+                    <p>${item.a}</p>
+                  </article>
+                `).join('')}
+              </div>
+            </section>
+          `;
+        case 'call-to-action':
+          return `
+            <section id="${section.id}" class="section final-cta-section">
+              <div class="final-cta-copy">
+                <h2>${section.heading}</h2>
+                <a class="button primary" href="${section.button.href}">${section.button.label}</a>
+              </div>
+            </section>
+          `;
+        default:
+          return '';
+      }
+    }
+
+    function renderApp() {
+      const hero = `
+        <section id="home" class="hero-section">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">Pregnancy wellness designed for every trimester</span>
+              <h1>${siteData.hero.heading}</h1>
+              <p>${siteData.hero.subheading}</p>
+              <div class="hero-actions">
+                <a class="button primary" href="${siteData.hero.primaryCta.href}">${siteData.hero.primaryCta.label}</a>
+                <a class="button secondary" href="${siteData.hero.secondaryCta.href}">${siteData.hero.secondaryCta.label}</a>
+              </div>
+              <div class="hero-coach-card">
+                <div class="hero-coach-image">RK</div>
+                <div class="hero-coach-copy">
+                  <p class="coach-role">${siteData.hero.coach.title} — ${siteData.hero.coach.name}</p>
+                  <p>${siteData.hero.coach.description}</p>
+                </div>
+              </div>
+            </div>
+            <aside class="hero-visual">
+              <div class="hero-visual-card">
+                <div class="visual-badge">Pregnancy Wellness</div>
+                <h2>Expert coaching for expectant mothers</h2>
+                <p>Safe yoga, soothing music and women's health guidance tailored for your pregnancy journey.</p>
+                <div class="visual-pill-row">
+                  <span>Pregnancy-safe flow</span>
+                  <span>Daily reset sessions</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="hero-highlights">
+            <span>Evidence-based prenatal yoga</span>
+            <span>Restorative soundscapes</span>
+            <span>Pregnancy-safe expert support</span>
+            <span>Personalised wellbeing insights</span>
+          </div>
+        </section>
+      `;
+
+      return hero + siteData.sections.map(renderSection).join('');
+    }
+
+    document.getElementById('main-nav').innerHTML = renderNav(siteData.nav);
+    document.getElementById('app').innerHTML = renderApp();
+  </script>
+</body>
+</html>

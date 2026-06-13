@@ -1,0 +1,148 @@
+{
+  "site": {
+    "title": "Sonara Yoga",
+    "subtitle": "Personalised yoga and wellness for every life stage.",
+    "description": "A premium wellness platform combining bespoke yoga programmes, personalised music, women's health expertise, luxury retreats and AI-powered wellness guidance.",
+    "brandColor": "#7E57C2",
+    "logoText": "Sonara Yoga",
+    "nav": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Features", "href": "#features" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Retreats", "href": "#retreats" },
+      { "label": "Community", "href": "#community" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "hero": {
+      "heading": "Move, breathe and thrive through personalised wellness experiences.",
+      "subheading": "A premium platform that adapts to your goals, mood, life stage, sleep and music preferences.",
+      "primaryCta": { "label": "Start Your Journey", "href": "/signup" },
+      "secondaryCta": { "label": "Learn More", "href": "#features" }
+    },
+    "sections": [
+      {
+        "id": "about",
+        "type": "text",
+        "title": "A new standard in personalised wellness",
+        "body": "Sonara Yoga delivers highly personalised yoga experiences supported by curated music, expert coaching, women's health services and transformational retreats. Unlike traditional memberships, the platform evolves into your personal wellness concierge."
+      },
+      {
+        "id": "brand-pillars",
+        "type": "cards",
+        "title": "Our Brand Pillars",
+        "cards": [
+          { "title": "Personalisation", "text": "Every programme adapts to the individual." },
+          { "title": "Science", "text": "Evidence-based guidance." },
+          { "title": "Music", "text": "Movement synchronised with sound." },
+          { "title": "Community", "text": "Supportive global wellness network." },
+          { "title": "Transformation", "text": "Long-term health improvement." }
+        ]
+      },
+      {
+        "id": "users",
+        "type": "persona-grid",
+        "title": "Core Users",
+        "personas": [
+          {
+            "name": "Busy Professional",
+            "painPoints": ["Burnout", "Stress", "Poor sleep"],
+            "needs": ["Short guided sessions", "Flexibility", "Accountability"]
+          },
+          {
+            "name": "Women's Health",
+            "painPoints": ["Pregnancy", "Postnatal recovery", "Perimenopause", "Menopause"],
+            "needs": ["Specialist guidance", "Safe exercise", "Expert support"]
+          },
+          {
+            "name": "Retreat Traveller",
+            "painPoints": [],
+            "needs": ["Wellness holidays", "Community", "Premium experiences"]
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "type": "feature-list",
+        "title": "Product Features",
+        "features": [
+          {
+            "title": "Wellness Assessment Engine",
+            "description": "Create personalised profiles and generate recommendations using wellness questions.",
+            "details": ["Wellness Score", "Recommended Programme", "Suggested Retreats", "Suggested Playlists"]
+          },
+          {
+            "title": "Personalised Yoga Programmes",
+            "description": "Tailored routines across all experience levels and needs.",
+            "details": ["Beginner", "Strength", "Flexibility", "Mobility", "Stress Relief", "Pregnancy", "Postnatal", "Menopause"]
+          },
+          {
+            "title": "Music Personalisation Engine",
+            "description": "Build immersive playlists for yoga, meditation, and recovery.",
+            "details": ["Ambient", "Classical", "Nature", "Electronic", "Instrumental"]
+          },
+          {
+            "title": "AI Wellness Concierge",
+            "description": "Get smart guidance for the moment you are in.",
+            "details": ["Yoga session", "Breathwork", "Playlist", "Reflection exercise"]
+          }
+        ]
+      },
+      {
+        "id": "pricing",
+        "type": "pricing-table",
+        "title": "Membership Plans",
+        "plans": [
+          {
+            "name": "Essential",
+            "price": "£29/month",
+            "features": ["Classes", "Library", "Community"]
+          },
+          {
+            "name": "Signature",
+            "price": "£79/month",
+            "features": ["Personalised programmes", "Music recommendations", "Retreat discounts"]
+          },
+          {
+            "name": "Elite",
+            "price": "£299/month",
+            "features": ["Monthly consultation", "Concierge support", "Priority retreat access"]
+          }
+        ]
+      },
+      {
+        "id": "retreats",
+        "type": "media-highlight",
+        "title": "Retreat Marketplace",
+        "subtitle": "Luxurious wellness escapes across the world's most desirable destinations.",
+        "destinations": ["Croatia", "Portugal", "Greece", "Bali", "Morocco"],
+        "features": ["Booking", "Deposits", "Waitlists", "Itinerary builder", "Galleries"]
+      },
+      {
+        "id": "womens-health",
+        "type": "feature-grid",
+        "title": "Women's Health Hub",
+        "description": "Specialist support from pregnancy through menopause.",
+        "highlight": "Led by Dr Reena Kotecha",
+        "topics": ["Pregnancy", "Birth preparation", "Postnatal recovery", "Pelvic health", "Menopause"]
+      },
+      {
+        "id": "community",
+        "type": "testimonial-block",
+        "title": "Community & Connection",
+        "items": [
+          "Challenges",
+          "Forums",
+          "Accountability groups",
+          "Retreat alumni groups"
+        ]
+      },
+      {
+        "id": "cta",
+        "type": "call-to-action",
+        "heading": "Ready to make wellness personal?",
+        "button": { "label": "Join Sonara Yoga", "href": "/signup" }
+      }
+    ]
+  }
+}

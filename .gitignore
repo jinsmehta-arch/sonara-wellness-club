@@ -1,0 +1,23 @@
+.DS_Store
+node_modules/
+.env
+.env.local
+.vscode/
+.idea/
+*.log
+/dist
+/build
+/__pycache__/
+*.pyc
+# Mac
+Icon\r
+
+# Ignore local workspace storage (VSCode)
+**/.vscode/**
+
+# Ignore system files
+Thumbs.db
+
+# Optional: npm/yarn lock files (keep if you want deterministic installs)
+# package-lock.json
+yarn.lock
